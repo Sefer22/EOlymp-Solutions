@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class tapsiriq {		
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+	 int n,a,b;
+	 n=scan.nextInt();
+	 a=scan.nextInt();
+	 b=scan.nextInt();
+	  
+	 if(n%a==0 && n%b==0) System.out.println("YES");
+	 else System.out.println("NO");
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class dders2 {		
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+	  
+           long a,b,c,d;
+           a=scan.nextLong();
+           b=scan.nextLong();
+           c=scan.nextLong();
+           d=scan.nextLong();
+           
+           if(a==b && b==c && c==d) System.out.println(a*a);
+           else System.out.println("No");
+	}
+}

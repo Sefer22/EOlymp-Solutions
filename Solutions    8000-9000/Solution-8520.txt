@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class tapsiriq {		
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+	 long x,y;
+	 x=scan.nextLong();
+	 
+	 if(x < 5) {
+		 y=x*x-3*x+4;
+		 System.out.println(y);
+	 }else if(x>=5) {
+		 y=x+7;
+		 System.out.println(y);
+	 }
+	
+	}
+}

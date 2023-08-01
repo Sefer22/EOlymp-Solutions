@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class dders2 {		
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+	 long n;
+	n=scan.nextLong();
+	
+	for(int i=0;i<4;i++) {
+		for(int j=0;j<n;j++) {
+			System.out.print("#");
+		}
+		System.out.println("\n");
+		
+	}
+
+	}
+}
