@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class dders2 {		
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+	 long n,mul=1,b;
+	n=scan.nextLong();
+	
+	if(n<0) n=-n;
+	else if(n==0) mul=0;
+	else mul=1;
+	
+	
+	while(n>0) {
+		b=n%10;
+		
+		
+		if(b%2==0) {
+			mul=mul*b;
+	}
+		n=n/10;
+	}
+	if(mul==1) System.out.println("-1");
+	else System.out.println(mul);
+	}
+}
