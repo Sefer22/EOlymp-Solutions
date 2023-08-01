@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class kursders {
+	
+	
+	
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+	
+	     long n;
+	     int sum1=0,sum2=0;
+	     n=scan.nextLong();
+	     
+	     while(n>0) {
+	      sum1 += n%10;
+	      n=n/10;
+	      sum2 += n%10;
+	     n=n/10;	  
+	    	 
+	     }
+	     System.out.println(sum1*sum2);
+	     
+	}
+}
