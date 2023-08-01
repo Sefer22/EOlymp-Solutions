@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class tapsiriq {		
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+	 int n,product=1,m;
+	 n=scan.nextInt();
+	 
+      while(n>0) {
+    	  m=n%10;
+    	  n=n/10;
+    	  product=product*m;
+    	  
+      }
+	 System.out.println(product);
+	  
+	}
+}
